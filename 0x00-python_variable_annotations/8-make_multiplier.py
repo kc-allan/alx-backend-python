@@ -14,7 +14,3 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     :return: a function that multiplies a float by multiplier
     """
     return lambda x: x * multiplier
-
-
-fun = make_multiplier(2.22)
-print("{}".format(fun(2.22)))
