@@ -6,7 +6,9 @@ Write a type-annotated function sum_mixed_list\
 """
 
 
-def sum_mixed_list(mxd_lst: list[int | float]) -> float:
+from typing import List, Union
+
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
     Function sum_mixed_list that returns the sum of a list's contents
     :param mxd_lst: a list of float and int values
