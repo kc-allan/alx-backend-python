@@ -12,7 +12,7 @@ def sum_mixed_list(mxd_lst: list[int | float]) -> float:
     :param mxd_lst: a list of float and int values
     :return: some of all n values in mxd_lst
     """
-    sum = 0.0
+    sum: float = 0.0
     for i in mxd_lst:
         sum += i
     return sum
